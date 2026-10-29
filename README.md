@@ -1,4 +1,4 @@
-# dsh-qq-access
+﻿# dsh-qq-access
 
 > **一句话**：把「谁能和这个 agent 说话」做成一个纯函数 + 一条 CLI —— 不连 QQ、不连 DSH、不发消息，只回答放行还是拒绝，以及**为什么**。
 >
@@ -20,7 +20,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/Derpyu520/dsh-qq-access.git
+git clone https://github.com/whatxin7/dsh-qq-access.git
 cd dsh-qq-access
 node --test                     # 20 个用例
 node bin/qq-access.mjs init --out config.json
@@ -140,13 +140,13 @@ if (decision.action === 'approve' && conf.autoWhitelist && decision.userId) {
 | 项目 | 对应成本条目 |
 |---|---|
 | **dsh-qq-access**（本仓库） | 好友 / 白名单 / 权限 |
-| [dsh-token-meter](https://github.com/Derpyu520/dsh-token-meter) | 用量与成本核算 |
-| [dsh-qq-voice](https://github.com/Derpyu520/dsh-qq-voice) | 语音 / 唱歌 / 音色 |
-| [dsh-qq-stickers](https://github.com/Derpyu520/dsh-qq-stickers) | 表情包 / 斗图 |
-| [dsh-mcp-safe-tools](https://github.com/Derpyu520/dsh-mcp-safe-tools) | 能力扩展（视觉 / 搜索 / 语感） |
-| [dsh-session-link](https://github.com/Derpyu520/dsh-session-link) | 联通会话 / 行为调优 |
-| [dsh-persona-kit](https://github.com/Derpyu520/dsh-persona-kit) | 人格 / 角色卡 |
-| [qq-bridge](https://github.com/Derpyu520/qq-bridge) | 桥接内核（旗舰仓库） |
+| [dsh-token-meter](https://github.com/whatxin7/dsh-token-meter) | 用量与成本核算 |
+| [dsh-qq-voice](https://github.com/whatxin7/dsh-qq-voice) | 语音 / 唱歌 / 音色 |
+| [dsh-qq-stickers](https://github.com/whatxin7/dsh-qq-stickers) | 表情包 / 斗图 |
+| [dsh-mcp-safe-tools](https://github.com/whatxin7/dsh-mcp-safe-tools) | 能力扩展（视觉 / 搜索 / 语感） |
+| [dsh-session-link](https://github.com/whatxin7/dsh-session-link) | 联通会话 / 行为调优 |
+| [dsh-persona-kit](https://github.com/whatxin7/dsh-persona-kit) | 人格 / 角色卡 |
+| [qq-bridge](https://github.com/whatxin7/qq-bridge) | 桥接内核（旗舰仓库） |
 
 ## English
 
@@ -154,4 +154,6 @@ Admission policy for a QQ ↔ DSH bridge: a pure, offline-testable decision func
 
 ## License
 
-MIT © Derpyu520
+MIT © whatxin7
+
+

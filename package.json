@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "dsh-qq-access",
   "version": "1.0.0",
   "private": false,
@@ -38,10 +38,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Derpyu520/dsh-qq-access.git"
+    "url": "git+https://github.com/whatxin7/dsh-qq-access.git"
   },
-  "homepage": "https://github.com/Derpyu520/dsh-qq-access#readme",
+  "homepage": "https://github.com/whatxin7/dsh-qq-access#readme",
   "bugs": {
-    "url": "https://github.com/Derpyu520/dsh-qq-access/issues"
+    "url": "https://github.com/whatxin7/dsh-qq-access/issues"
   }
 }
+
+
