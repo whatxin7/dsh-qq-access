@@ -1,0 +1,20 @@
+{
+  "ownerQQ": "10001",
+  "allowAllWhenEmpty": false,
+  "allow": {
+    "private": ["20002", "20003"],
+    "groups": ["30003"]
+  },
+  "deny": {
+    "private": [],
+    "groups": []
+  },
+  "friendRequest": {
+    "enabled": true,
+    "autoApprove": true,
+    "autoWhitelist": true,
+    "autoApproveDoubt": true,
+    "autoWhitelistOnFirstMessage": true,
+    "sweepIntervalMs": 300000
+  }
+}

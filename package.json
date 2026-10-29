@@ -1,0 +1,47 @@
+{
+  "name": "dsh-qq-access",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "description": "QQ ↔ DSH 桥接的会话准入策略：谁能在私聊/群聊里和 agent 说话、好友申请怎么自动通过、通过后如何自动进白名单。纯函数 + CLI，不连网络。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "qq",
+    "onebot",
+    "access-control",
+    "whitelist",
+    "policy",
+    "security"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "qq-access": "./bin/qq-access.mjs"
+  },
+  "exports": {
+    ".": "./src/policy.mjs",
+    "./policy": "./src/policy.mjs",
+    "./friend-request": "./src/friend-request.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "config.example.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derpyu520/dsh-qq-access.git"
+  },
+  "homepage": "https://github.com/Derpyu520/dsh-qq-access#readme",
+  "bugs": {
+    "url": "https://github.com/Derpyu520/dsh-qq-access/issues"
+  }
+}
