@@ -19,6 +19,24 @@
 
 ## 快速开始
 
+### 三种装法（挑一个）
+
+```bash
+# 1) 零安装，先跑一次试试（需要 node ≥ 20 和 git）
+npx github:whatxin7/dsh-qq-access init --out config.json
+
+# 2) 装成全局命令（日常用这个）
+npm i -g github:whatxin7/dsh-qq-access
+
+# 3) 想改代码 / 跑测试
+git clone https://github.com/whatxin7/dsh-qq-access.git
+cd dsh-qq-access && npm install && npm test
+```
+
+> ⚠️ npm 上的 `dsh-qq-access` 这个名字**已被他人占用**（Applepinea 的 DSH QQ 通道，不是本项目），所以不要 `npm i dsh-qq-access`。
+> 本项目只通过 `github:whatxin7/...` 或源码安装；以后发 npm 会用 `@whatxin7/...` scope。
+
+
 ```bash
 git clone https://github.com/whatxin7/dsh-qq-access.git
 cd dsh-qq-access
